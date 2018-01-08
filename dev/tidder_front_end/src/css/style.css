@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global, auto center alligns it, overflow, hidden makes sure there is no
+scrolling from left to right */
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0
+  padding: 0
+}
+
+/* Header */
+header{
+  background: #332213;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #5D8D5D 4px solid;
+}
+
+/* the links in the header, maybe wanna make this eventually a drop
+down using bootstrap
+text decoration: will make the underline disappear
+text- transform will allow you to make them uppercase*/
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px
+}
+
+
+/* top right bottom left think of it as a clock*/
+header li{
+  float: left;
+  display: inline;
+  padding: 0 18px 0 18px;
+}
+
+header .branding {
+  float: left;
+}
+
+header .branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: : 10px
+}
+
+/*this is broken right now, but basically what you want is the current
+page that you want to be bolded an in green and it does not do that yet  */
+header nav .current a{
+  color: #5D8D5D
+  font-weight: bold
+
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* end of the header */
+.boxes-container{
+  float:left;
+  width: 100%;
+  padding: 10px;
+
+section .the-text{
+
+}
+
+
+
+}
+
+/*get rid of testing area box and just
+make it two images next to each other */
+section .box{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+
+}
