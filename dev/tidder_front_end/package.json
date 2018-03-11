@@ -1,14 +1,22 @@
 {
-  "name": "tidder_front_end",
+  "name": "bs4starter",
   "version": "1.0.0",
-  "description": "the front end access to Sean Carnahan's blog cite",
+  "description": "Bootstrap 4 starter workflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "author": "Sean Carnahan",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.11.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   }
 }

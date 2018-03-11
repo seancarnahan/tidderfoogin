@@ -1,0 +1,30 @@
+// Main Sass File
+// Main Sass File
+$tf-brown: #5D4037;
+$tf-green: #9CCC65;
+$font-color: #F8F9F9;
+$body-bg-color: #5D6D7E;
+
+//main body styling
+body{
+  background: $body-bg-color
+}
+
+
+
+
+//nav styling
+.navbar{
+  background: $tf-brown;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: $tf-green 4px solid;
+}
+
+.nav-link{
+  color: $font-color;
+}
+
+#tf-brand-logo {
+  color: $font-color;
+}
