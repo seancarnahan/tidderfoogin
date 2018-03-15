@@ -1,0 +1,17 @@
+$test-color: #ffff00;
+$tf-brown: #4d3319;
+$tf-bg-brown: #ac7339;
+$tf-green: #004d00;
+$tf-bg-green: #e6ffe6;
+$font-color: #F8F9F9;
+$body-bg-color: #F7F9F9;
+$black-font: #17202A;
+
+//cant figure out why this wont work
+.body #Home {
+  margin: 0;
+  padding: 0;
+  background-color: $tf-bg-green;
+  font-family: "Lato", sans-serif;
+  color: $black-font;
+}

@@ -79,7 +79,7 @@ $black-font: #17202A;
   padding-top: 50px;
   padding-bottom: 100px;
   background-color: $tf-bg-green;
-  border: $tf-brown 3px solid;
+  border-top: $tf-brown 3px solid;
 }
 
 .create-tidd{
@@ -117,11 +117,48 @@ $black-font: #17202A;
   font-size: 20px;
 }
 
+//urban dictionary definition
+
+.urban-contain{
+  background-color: $tf-bg-green;
+  border: $tf-brown 3px solid;
+}
+
+.jumbotron{
+  background-color: $tf-bg-green;
+}
+
+//testing
+.upper-urban-contain{
+    background-color: $tf-bg-green;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+//footer
 .footer-container{
   background-color: $tf-brown;
   height: 300px;
   border: 3px $black-font solid;
   color: $font-color;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 10px;
+
+  position: relative;
+  //opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+
+//this doesnt seem to be working but im trying to move the copyright towards the bottom more
+.footer-text {
+  text-align: center;
+  width: 100%;
+  top: 50%;
 }

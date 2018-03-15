@@ -50,7 +50,7 @@
   padding-top: 50px;
   padding-bottom: 100px;
   background-color: #e6ffe6;
-  border: #4d3319 3px solid; }
+  border-top: #4d3319 3px solid; }
 
 .create-tidd {
   background-image: url(../photos/tidderstockphoto4.jpg);
@@ -79,10 +79,31 @@
   color: #17202A;
   font-size: 20px; }
 
+.urban-contain {
+  background-color: #e6ffe6;
+  border: #4d3319 3px solid; }
+
+.jumbotron {
+  background-color: #e6ffe6; }
+
+.upper-urban-contain {
+  background-color: #e6ffe6;
+  padding-bottom: 100px; }
+
 .footer-container {
   background-color: #4d3319;
   height: 300px;
   border: 3px #17202A solid;
   color: #F8F9F9;
-  font-size: 20px;
-  padding-top: 10px; }
+  font-size: 15px;
+  padding-top: 10px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; }
+
+.footer-text {
+  text-align: center;
+  width: 100%;
+  top: 50%; }
